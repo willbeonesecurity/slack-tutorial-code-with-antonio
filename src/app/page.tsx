@@ -1,10 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { ButtonIcon } from "@radix-ui/react-icons";
+import { AuthScreen } from "@/features/auth/components/auth-screen";
+
 
 export default function Home() {
   return (
-    <Button variant="slack">
-      Hello World!
-    </Button>
+    <AuthScreen />
   );
 };
